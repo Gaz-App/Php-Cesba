@@ -1,4 +1,4 @@
-<<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,23 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<br>
+
 <body>
 
 <?php
-$name = 'Cesba !!!';
+$name = 'FRANCISCO';
+$age = 51;
 
-$number = 100;
-$Number_List = 100.5;
+$Number_List = 555.5;
 //$num-ber= 400;
 //$0number = 500;
-$NUMBER = 100;
+$NUMBER = 200;
 $NUMBeR = 100;
-echo $name . " " . $NUMBeR;
 
-$name = "<h1> HELLO</h1>";
+//echo $name;
+echo $name." ".$age ;
 
-echo $name;
+$saludo = "<h3> HELLO CESBA !!!</h3>";
+echo $saludo
+
+
 ?>
 </body>
 </html>
